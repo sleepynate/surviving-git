@@ -401,8 +401,8 @@ But wait, there's more.
 ### External tools that can be handy:
 
 + [GitX][]
-+ [SourceTree][]
-+ Github for [Mac](http://www.sourcetreeapp.com/) / [Windows](http://windows.github.com/)
++ [SourceTree](http://www.sourcetreeapp.com/)
++ Github for [Mac](http://mac.github.com) / [Windows](http://windows.github.com/)
 
 <hr>
 
