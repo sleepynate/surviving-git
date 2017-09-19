@@ -2,7 +2,7 @@
 
 <hr>
 
-## What the hell is a `git`?
+## What the heck is a `git`?
 
 <hr>
 
@@ -368,7 +368,7 @@ Meanwhile, development can continue in our master branch
 $ echo 'import sys; print "We like %s" % " ".join(sys.argv[1:])' \
 > like_stuff.py
 $ python like_stuff.py puppies
-$ python like_stuff.py dirty jokes
+$ python like_stuff.py silly jokes
 $ git add like_stuff.py && git commit -am 'Liking things is good'
 $ git mv everything.py life_universe.py
 $ git commit -m 'rename!'
@@ -403,9 +403,9 @@ We can see our branches have come together once again.
 A primary advantage of `git` is that it is *distributed*. I'm going
 distribute my repo to github so others can share my repository.
 
-After [creating a new repository on github][] I will need to add the
-`remote`. A `remote` is another related repository, usually on a
-(wait for it…) *remote* server.
+After [creating a new repository on github](http://github.com) I will
+need to add the `remote`. A `remote` is another related repository,
+usually on a (wait for it&hellip;) *remote* server.
 
 First though, let's create a remote on our own machine as an example.
 
@@ -459,7 +459,7 @@ $ git add station_id.py && git commit -m 'adding a new thinger'
 $ git push wicked-sweet master:from-fake
 ```
 
-Now we're cooking… this creates a `branch` back in our `wicked-sweet`
+Now we're cooking&hellip; this creates a `branch` back in our `wicked-sweet`
 repo named `from-fake` which is based off the `master` branch of this
 repository.
 
@@ -493,7 +493,7 @@ Congratulations
 ---------------
 
 You now know enough about `git` to trick someone into thinking
-that you know what the hell you are talking about.
+that you know what the heck you are talking about.
 
 <hr>
 
